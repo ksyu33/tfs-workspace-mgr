@@ -15,7 +15,7 @@ namespace simple_test
 {
     public partial class MainForm : Form
     {
-        private Uri _serverUri = new Uri("https://simpleisbest.visualstudio.com/");
+        private Uri _serverUri = new Uri("https://your.tfs.url");
         private TfsTeamProjectCollection _collection;
 
         public MainForm()
